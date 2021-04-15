@@ -21,7 +21,7 @@ export default function CarDetailsScreen({ route, navigation }) {
           style={styles.carImgStyle}
           source={{
             uri:
-              "http://rentalvehiclesapi.azurewebsites.net/api/carmodels/" +
+              "https://rentalapigateway.azurewebsites.net/api/carmodels/" +
               item.id +
               "/image",
           }}

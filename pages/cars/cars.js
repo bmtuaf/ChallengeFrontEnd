@@ -19,7 +19,7 @@ export default function CarsScreen({ route, navigation }) {
 
   useEffect(() => {
     fetch(
-      "http://rentalorchestratorapi.azurewebsites.net/api/search/vehicles/available",
+      "https://rentalapigateway.azurewebsites.net/api/search/vehicles/available",
       {
         method: "POST",
         headers: {
@@ -61,7 +61,7 @@ export default function CarsScreen({ route, navigation }) {
           style={styles.carImgStyle}
           source={{
             uri:
-              "http://rentalvehiclesapi.azurewebsites.net/api/carmodels/" +
+              "https://rentalapigateway.azurewebsites.net/api/carmodels/" +
               item.id +
               "/image",
           }}

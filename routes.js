@@ -18,8 +18,8 @@ export default function Routes() {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Cars" component={CarsScreen} />
         <Stack.Screen name="CarDetails" component={CarDetailsScreen} />
-        <Stack.Screen name="LogIn" component={LoginScreen} />
         <Stack.Screen name="Start" component={StartScreen} />
+        <Stack.Screen name="LogIn" component={LoginScreen} />
       </Stack.Navigator>
       {/* <BottomNavigation /> */}
     </NavigationContainer>
